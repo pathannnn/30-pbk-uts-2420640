@@ -124,12 +124,12 @@ onMounted(() => {
 
         <section class="create-post">
             <form id="new-post-form" @submit.prevent="addPost">
-                <h4>Post Title</h4>
+                <h3>POST</h3>
                 <input 
                     type="text" 
                     name="title" 
                     id="post-title" 
-                    placeholder="Post title"
+                    placeholder="Write your post "
                     v-model="post_title"
                     @input="filterUsers(post_title)" />
                 <div v-if="show_dropdown" class="dropdown">
@@ -144,7 +144,7 @@ onMounted(() => {
         </section>
 
         <section class="todo-list">
-            <h3>Todo List</h3>
+            <h3>List</h3>
             <div class="list" id="todo-list">
                 <div 
                     v-for="todo in todos_asc" 
