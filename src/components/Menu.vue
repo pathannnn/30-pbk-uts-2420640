@@ -1,7 +1,7 @@
 <template>
     <q-header>
       <q-toolbar>
-        <q-toolbar-title>My App</q-toolbar-title>
+        <q-toolbar-title>Fatih Masrukhan</q-toolbar-title>
         <q-btn flat @click="navigate('/todos')">Todos</q-btn>
         <q-btn flat @click="navigate('/posts')">Posts</q-btn>
         <q-btn flat @click="navigate('/albums')">Albums</q-btn>
@@ -24,6 +24,5 @@
   </script>
   
   <style scoped>
-  /* Add your styles here */
   </style>
   

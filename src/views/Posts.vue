@@ -1,5 +1,3 @@
-
-<!-- views/Posts.vue -->
 <template>
     <Menu />
     <section class="create-post">

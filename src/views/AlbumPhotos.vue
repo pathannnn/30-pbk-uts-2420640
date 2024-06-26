@@ -1,5 +1,4 @@
 
-<!-- views/AlbumPhotos.vue -->
 <template>
     <Menu />
     <q-page>
